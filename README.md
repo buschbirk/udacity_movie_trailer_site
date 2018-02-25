@@ -18,6 +18,13 @@ webbrowser module
 In entertainment_center.py, use the imported Media module
 to define an object of class movie.
 
+The class Movie takes the following arguments:
+* Title
+* Description
+* Poster image URL
+* Youtube trailer URL
+* IMBD rating
+
 ```
 black_panther = media.Movie(
     "Black Panther",
